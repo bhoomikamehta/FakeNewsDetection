@@ -1,1 +1,5 @@
-# FakeNewsDetection
+## Fake News Detection
+
+This project focuses on detecting fake news using machine learning by combining three datasets: **ISOT Fake News**, **Fake News Classification**, and **Horne 2017**. We performed extensive preprocessing, including TF-IDF vectorization, Word2Vec embeddings, and dimensionality reduction using PCA. To enhance feature richness, we also incorporated a one-hot encoding of the article’s source. Several models were trained and evaluated, including **Logistic Regression**, **Naive Bayes**, **Random Forest**, **XGBoost**, and a **Neural Network**.
+
+Our results demonstrate that deep learning and ensemble methods significantly outperform traditional classifiers. The **Neural Network** achieved the highest accuracy of **96.26%**, closely followed by **XGBoost** at **95.20%**. This project highlights the importance of semantic understanding in text classification and shows how contextual embeddings and source metadata can drastically improve model performance in real-world NLP tasks like misinformation detection.
